@@ -5,6 +5,6 @@ class CreateNote(forms.ModelForm):
     picture = forms.ImageField(required=False)
     class Meta:
         model = MyNote
-        fields = '__all__'
+        fields = '__all__' 
 
     
